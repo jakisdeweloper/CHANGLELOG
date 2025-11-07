@@ -33,7 +33,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Historia zmian (Changelog)</h1>
+        <h1>Changelog</h1>
         <div id="changelog-content">
             <!-- Tutaj zostanie wczytana zawartość pliku changelog.txt -->
             Ładowanie changeloga...
@@ -60,7 +60,7 @@
                 
             } catch (error) {
                 console.error("Wystąpił błąd podczas ładowania pliku:", error);
-                document.getElementById('changelog-content').textContent = 'Nie udało się wczytać pliku changelog.txt.';
+                document.getElementById('changelog-content').textContent = 'Failed to load file changelog.txt.';
             }
         }
 
@@ -69,4 +69,5 @@
     </script>
 
 </body>
+
 </html>
