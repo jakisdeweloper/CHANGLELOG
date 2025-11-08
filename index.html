@@ -44,8 +44,12 @@
         // Funkcja wczytująca plik tekstowy za pomocą Fetch API
         async function loadChangelog() {
             try {
-                // Wykonuje zapytanie HTTP do pliku changelog.txt
-                const response = await fetch('https://github.com/jakisdeweloper/CHANGLELOG/blob/main/changelog.txt');
+                // Dodaje sygnaturę czasową jako parametr zapytania, aby zapobiec buforowaniu
+                const timestamp = new Date().getTime();
+                const url = `changelog.txt?t=${timestamp}`; // Unikalny URL przy każdym ładowaniu
+
+                // Wykonuje zapytanie HTTP do pliku changelog.txt z unikalnym parametrem
+                const response = await fetch(url);
                 
                 // Sprawdza, czy odpowiedź jest poprawna (status 200 OK)
                 if (!response.ok) {
@@ -71,5 +75,6 @@
 </body>
 
 </html>
+
 
 
