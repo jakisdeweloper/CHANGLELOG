@@ -45,7 +45,7 @@
         async function loadChangelog() {
             try {
                 // Wykonuje zapytanie HTTP do pliku changelog.txt
-                const response = await fetch('changelog.txt');
+                const response = await fetch('https://github.com/jakisdeweloper/CHANGLELOG/blob/main/changelog.txt');
                 
                 // Sprawdza, czy odpowiedź jest poprawna (status 200 OK)
                 if (!response.ok) {
@@ -71,4 +71,5 @@
 </body>
 
 </html>
+
 
