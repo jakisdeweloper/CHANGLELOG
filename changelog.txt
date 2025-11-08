@@ -1,7 +1,10 @@
 [0.2]
 
-Added leaderboard with Kills and Deaths
+- Added leaderboard with Kills and Deaths
+
+- Maked impossible to kill players by shooting to they.
 
 [0.1]
 
-First realase
+
+- First realase
