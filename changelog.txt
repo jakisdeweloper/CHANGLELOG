@@ -2,7 +2,7 @@
 
 - Added Wave to leaderboard
 
-- Increased number zombies spawning in waves from 2 to 3
+- Increased a number of new zombies spawning with each wave from 2 to 3
 
 [0.2b]
 
@@ -17,5 +17,6 @@
 [0.1]
 
 - First realase
+
 
 
