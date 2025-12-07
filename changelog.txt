@@ -1,6 +1,6 @@
 [0.3]
 
-- Added new map and thanks to No_LiveXD (Okolo6) for it.
+- Added new map and thanks to No_LiveXD (@Okolo6) for it.
 
 [0.2c]
 
@@ -21,6 +21,7 @@
 [0.1]
 
 - First realase
+
 
 
 
